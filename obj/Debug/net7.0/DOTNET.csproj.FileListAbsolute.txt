@@ -1,0 +1,14 @@
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\DOTNET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\DOTNET.AssemblyInfoInputs.cache
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\DOTNET.AssemblyInfo.cs
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\DOTNET.csproj.CoreCompileInputs.cache
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\bin\Debug\net7.0\DOTNET.exe
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\bin\Debug\net7.0\DOTNET.deps.json
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\bin\Debug\net7.0\DOTNET.runtimeconfig.json
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\bin\Debug\net7.0\DOTNET.dll
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\bin\Debug\net7.0\DOTNET.pdb
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\DOTNET.dll
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\refint\DOTNET.dll
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\DOTNET.pdb
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\DOTNET.genruntimeconfig.cache
+C:\Users\pavithracad01\Desktop\CADBATCH01\PROJECT\DOTNET\obj\Debug\net7.0\ref\DOTNET.dll
