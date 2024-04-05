@@ -20,3 +20,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+.carousel-item img{
+  height:90vh;
+
+}
+.card right {
+  position:relative;
+  
+  right:100px;
+}

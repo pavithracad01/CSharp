@@ -53,32 +53,10 @@ public class AdminController : Controller
 
 
 
-    void connectionstring(){
-        con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS; database=CAD_OFS; User Id= CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True;";
+  
 
-    }
-    [HttpPost]
-
-    public IActionResult VerifyLogin(LoginModel lmodel){
-        connectionstring();
-        con.Open();
-        com.Connection=con;
-        com.CommandText="select * from ofs_login  where Username='"+lmodel.username+"' and password='"+lmodel.password+"' ";
-        dr=com.ExecuteReader();
-
-        if(dr.Read()){
-            con.Close();
-            return View("Success");
-
-        }
-        else{
-              con.Close();
-            return View("Error");
-
-
-        }
-       
-    }
+    
+    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

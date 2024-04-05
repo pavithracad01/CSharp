@@ -33,6 +33,34 @@
       "PackagePath": "staticwebassets\\Images\\anniversary.jpeg"
     },
     {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\back.jpg",
+      "PackagePath": "staticwebassets\\Images\\back.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\back1.1.jpg",
+      "PackagePath": "staticwebassets\\Images\\back1.1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\back1.jpg",
+      "PackagePath": "staticwebassets\\Images\\back1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\back2.jpg",
+      "PackagePath": "staticwebassets\\Images\\back2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\back3.jpg",
+      "PackagePath": "staticwebassets\\Images\\back3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\backk.jpg",
+      "PackagePath": "staticwebassets\\Images\\backk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\backkk.jpg",
+      "PackagePath": "staticwebassets\\Images\\backkk.jpg"
+    },
+    {
       "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\banner off.jpeg",
       "PackagePath": "staticwebassets\\Images\\banner off.jpeg"
     },
@@ -109,6 +137,10 @@
       "PackagePath": "staticwebassets\\Images\\offfer2.jpeg"
     },
     {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\payment.png",
+      "PackagePath": "staticwebassets\\Images\\payment.png"
+    },
+    {
       "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\returns.png",
       "PackagePath": "staticwebassets\\Images\\returns.png"
     },
@@ -127,6 +159,10 @@
     {
       "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\sqlimage.jpeg",
       "PackagePath": "staticwebassets\\Images\\sqlimage.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\t-icn.png",
+      "PackagePath": "staticwebassets\\Images\\t-icn.png"
     },
     {
       "Id": "C:\\Users\\pavithracad01\\Desktop\\CADBATCH01\\PROJECT\\DOTNET\\CSHARP\\MVCPROJECT\\wwwroot\\Images\\tick.png",

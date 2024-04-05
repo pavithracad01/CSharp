@@ -40,7 +40,7 @@ public class LoginController : Controller
 
     public IActionResult Admin()
     {
-        return View();
+        return View("Dashboard","Admin");
     }
     public IActionResult Reports()
     {
@@ -93,38 +93,60 @@ public class LoginController : Controller
     }
 
 
-
-
-    void connectionstring(){
-        con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS; database=CAD_OFS; User Id= CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True;";
-
-    }
-  
-
-    public IActionResult VerifyLogin(LoginModel lmodel){
-        connectionstring();
+    public IActionResult VerifyLogin(LoginModel lmodel)
+    {
+       conStr();
         con.Open();
-        com.Connection=con;
-        com.CommandText="select * from ofs_login  where Username='"+lmodel.username+"' and password='"+lmodel.password+"' ";
+       com.Connection=con;
+         com.CommandText="select * from ofs_log where UserName=@UserName and Password=@Password";
+       com.Parameters.AddWithValue("@UserName", lmodel.UserName);
+        com.Parameters.AddWithValue("@Password", lmodel.Password);
+
         dr=com.ExecuteReader();
-
-        if(dr.Read()){
+if(dr.Read()){
+       string? jobrolecheck=dr["jobrole"].ToString();
             con.Close();
-            return View("Success");
+         
 
-        }
+
+            if(jobrolecheck=="Dashboard")
+            {
+                
+            return RedirectToAction("Dashboard","Admin");
+            }
+            else if(jobrolecheck=="Admin"){
+                
+                return RedirectToAction("Dashboard","Admin");
+            }
         else{
               con.Close();
             return View("Error");
-
-
         }
+
+    }
+           else{
+              
+                dr.Close();
+                com.CommandText="select * from ofs_login where UserName=@UserName and password=@password";
+                com.Parameters.AddWithValue("@UserName", lmodel.UserName);
+                com.Parameters.AddWithValue("@Password", lmodel.Password);
+                dr=com.ExecuteReader();
+                if(dr.Read()){
+                    con.Close();
+                    return RedirectToAction("Dashboard","Trainee");
+                }
+                else{
+                    con.Close();
+                    return View("Error");
+                 }
+        }   
        
     }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
-  }
+    }
